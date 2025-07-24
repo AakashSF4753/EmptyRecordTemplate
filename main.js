@@ -19,7 +19,7 @@ var treegrid = new ej.treegrid.TreeGrid({
     {
       field: 'taskName',
       headerText: 'Task Name',
-      width: 200,
+      width: 120,
       textAlign: 'Left',
     },
     {
