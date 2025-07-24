@@ -31,6 +31,14 @@ var treegrid = new ej.treegrid.TreeGrid({
       format: 'yMd',
     },
     {
+      field: 'endDate',
+      headerText: 'End Date',
+      width: 90,
+      textAlign: 'Right',
+      type: 'date',
+      format: 'yMd',
+    },
+    {
       field: 'duration',
       headerText: 'Duration',
       width: 80,
