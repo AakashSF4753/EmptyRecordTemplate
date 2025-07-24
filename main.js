@@ -5,6 +5,8 @@ var treegrid = new ej.treegrid.TreeGrid({
   treeColumnIndex: 1,
   toolbar: ['Delete', 'Search'],
   editSettings: { allowAdding: true, allowDeleting: true },
+  allowFiltering: true,
+  filterSettings: { type: 'Menu' },
   emptyRecordTemplate: '#emptytemplate',
   columns: [
     {
