@@ -50,115 +50,75 @@ var treegrid = new ej.treegrid.TreeGrid({
       new ej.buttons.Button({ content: 'Add Record', cssClass: 'e-primary' }, addBtn);
       addBtn.onclick = function () {
         treegrid.addRecord(
-        {
-          taskID: 1,
-          taskName: 'Feature Implementation',
-          startDate: new Date('2024-03-01'),
-          endDate: new Date('2024-04-10'),
-          progress: 85,
-          duration: 30,
-          priority: 'High',
-          approved: false,
-          subtasks: [
+          {
+            "taskID": 1,
+            "taskName": "Project Lifecycle",
+            "startDate": "2023-11-01",
+            "endDate": "2023-11-30",
+            "progress": 20,
+            "duration": 30,
+            "priority": "High",
+            "approved": false,
+            "subtasks": [
               {
-                  taskID: 2,
-                  taskName: 'Feature added to wishlist',
-                  startDate: new Date('2024-03-01'),
-                  endDate: new Date('2024-03-01'),
-                  duration: 1,
-                  progress: 100,
-                  priority: 'Low',
-                  approved: true
+                "taskID": 2,
+                "taskName": "Define Scope",
+                "startDate": "2023-11-01",
+                "endDate": "2023-11-03",
+                "duration": 3,
+                "progress": 100,
+                "priority": "High",
+                "approved": true
               },
               {
-                  taskID: 3,
-                  taskName: 'Initial planning and analysis',
-                  startDate: new Date('2024-03-02'),
-                  endDate: new Date('2024-03-04'),
-                  duration: 3,
-                  progress: 100,
-                  priority: 'Normal',
-                  approved: true
+                "taskID": 3,
+                "taskName": "Draft Plan",
+                "startDate": "2023-11-04",
+                "endDate": "2023-11-06",
+                "duration": 3,
+                "progress": 60,
+                "priority": "High",
+                "approved": false
               },
               {
-                  taskID: 4,
-                  taskName: 'Requirement gathering and documentation',
-                  startDate: new Date('2024-03-05'),
-                  endDate: new Date('2024-03-08'),
-                  duration: 4,
-                  progress: 100,
-                  priority: 'High',
-                  approved: true
+                "taskID": 4,
+                "taskName": "Build Feature",
+                "startDate": "2023-11-07",
+                "endDate": "2023-11-15",
+                "duration": 9,
+                "progress": 40,
+                "priority": "Critical",
+                "approved": false
               },
               {
-                  taskID: 5,
-                  taskName: 'UI/UX design and wireframing',
-                  startDate: new Date('2024-03-09'),
-                  endDate: new Date('2024-03-13'),
-                  duration: 5,
-                  progress: 100,
-                  priority: 'Normal',
-                  approved: true
+                "taskID": 5,
+                "taskName": "QA Testing",
+                "startDate": "2023-11-16",
+                "endDate": "2023-11-20",
+                "duration": 5,
+                "progress": 0,
+                "priority": "Normal",
+                "approved": false
               },
               {
-                  taskID: 6,
-                  taskName: 'Frontend development',
-                  startDate: new Date('2024-03-14'),
-                  endDate: new Date('2024-03-22'),
-                  duration: 9,
-                  progress: 100,
-                  priority: 'High',
-                  approved: true
+                "taskID": 6,
+                "taskName": "Deploy System",
+                "startDate": "2023-11-21",
+                "endDate": "2023-11-25",
+                "duration": 5,
+                "progress": 0,
+                "priority": "High",
+                "approved": false
               },
               {
-                  taskID: 7,
-                  taskName: 'Backend API integration',
-                  startDate: new Date('2024-03-23'),
-                  endDate: new Date('2024-03-28'),
-                  duration: 6,
-                  progress: 100,
-                  priority: 'Critical',
-                  approved: true
-              },
-              {
-                  taskID: 8,
-                  taskName: 'Internal QA testing',
-                  startDate: new Date('2024-03-29'),
-                  endDate: new Date('2024-04-01'),
-                  duration: 4,
-                  progress: 100,
-                  priority: 'High',
-                  approved: true
-              },
-              {
-                  taskID: 9,
-                  taskName: 'Bug fixing and retesting',
-                  startDate: new Date('2024-04-02'),
-                  endDate: new Date('2024-04-04'),
-                  duration: 3,
-                  progress: 100,
-                  priority: 'Normal',
-                  approved: true
-              },
-              {
-                  taskID: 10,
-                  taskName: 'Managerial review and approval',
-                  startDate: new Date('2024-04-05'),
-                  endDate: new Date('2024-04-06'),
-                  duration: 2,
-                  progress: 50,
-                  priority: 'High',
-                  approved: false
-              },
-              {
-                  taskID: 11,
-                  taskName: 'Deployment to production',
-                  startDate: new Date('2024-04-07'),
-                  endDate: new Date('2024-04-10'),
-                  duration: 4,
-                  progress: 0,
-                  priority: 'Critical',
-                  approved: false
+                "taskID": 7,
+                "taskName": "Feedback Review",
+                "startDate": "2023-11-26",
+                "endDate": "2023-11-30",
+                "duration": 5,
+                "progress": 0,
+                "priority": "Normal",
+                "approved": false
               }
             ]
           }
