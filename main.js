@@ -1,7 +1,7 @@
 var treegrid = new ej.treegrid.TreeGrid({
   dataSource: [],
   childMapping: 'subtasks',
-  height: 350,
+  height: 250,
   treeColumnIndex: 1,
   toolbar: ['Delete', 'Search'],
   editSettings: { allowAdding: true, allowDeleting: true },
